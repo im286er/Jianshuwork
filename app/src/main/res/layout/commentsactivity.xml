@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加你的评论"
+        android:id="@+id/add"
+        android:textColor="#bdb76b"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="刷新"
+          android:layout_marginLeft="190dp"
+          android:textColor="#bdb76b"
+          android:id="@+id/textview_shuaxin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="#000000"
+                    android:text=" 给简书app写评论送优惠码！送简书包！"
+                    android:id="@+id/textView2"
+                    android:layout_below="@+id/button_return1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/guanzhu3"
+                    android:layout_below="@+id/button_return1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignBottom="@+id/scrollView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#bdb76b"
+                    android:textSize="20sp"
+                    android:text="昨天推出开学福利！学生党老师们下单有优惠！活动后，就有人问啦"
+                    android:id="@+id/textView3"
+                    android:layout_alignBottom="@+id/scrollView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="30dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/pinglun"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:text=
+                        "那么今天推出的这项福利，便是所有人都能享受的哦。
+
+       即日起在各大应用市场里对简书app进行评论，并在评论里附上你的简书ID，用简信联系官方账号简书，告诉我们你的评论地址之后，我们将提供你一个优惠码。这个优惠吗可以在简书官方淘宝店和简书微信小店下单时使用，出示优惠码后，淘宝客服会为你修改价格，减去十块钱，而在微信下单的用户我们将赠送你一个神秘礼物。
+
+       如果你的评论特别精彩，我们回赠送你一个简书包
+
+       之前给简书app写评论，送明信片！送简书包！的活动，几次停止，我们不再为写评论的用户送明信片啦~"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="对简书的评论:"
+                    android:textColor="#bdb76b"
+                    android:textSize="25sp"/>
+                <com.example.xianling.jian.MyListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listview_pinglun">
+
+                </com.example.xianling.jian.MyListView>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    </LinearLayout>
+

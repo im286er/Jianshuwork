@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textureView"
+        android:text="关于我们"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"
+        android:lineSpacingExtra="4dip"
+        android:lineSpacingMultiplier="2.0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textureView1"
+        android:text="简书"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff6347"
+        android:lineSpacingExtra="3dip"
+        android:lineSpacingMultiplier="1.5"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textureView2"
+        android:text="Jianshu.com"
+        android:textSize="10sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff6347"
+        android:lineSpacingExtra="3dip"
+        android:lineSpacingMultiplier="1.5"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textureView3"
+        android:text="2.10.2"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff6347"
+
+        />
+
+
+</LinearLayout>

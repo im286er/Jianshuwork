@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:textColor="#ff6347"
+        android:textSize="25sp"
+        android:text="优秀的小伙伴们都在这里，
+        展开更深入的交流"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:id="@+id/image_view"
+       android:src="@mipmap/color9"
+       android:layout_gravity="center_horizontal"
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView1"
+    android:gravity="center_horizontal"
+    android:textColor="#ff6347"
+    android:textSize="20sp"
+    android:text="欢迎你，我们的新朋友"
+        android:layout_below="@+id/image_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进入简书"
+        android:id="@+id/button5"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff6347"/>
+
+</RelativeLayout>

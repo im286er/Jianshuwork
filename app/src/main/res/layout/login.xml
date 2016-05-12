@@ -1,0 +1,113 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@mipmap/login1" >
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:lineSpacingExtra="3dip"
+        android:lineSpacingMultiplier="1.2"
+        android:text="简书"/>
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:text="交流故事，沟通想法"
+        android:lineSpacingExtra="3dip"
+        android:lineSpacingMultiplier="3"
+        />
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="登    陆"
+        android:padding="30dp"
+        />
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="30dp"
+            android:background="@mipmap/account1"
+            android:layout_width="30dp"
+            android:layout_marginLeft="50dp"
+            />
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="输入你的账号：" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="30dp"
+            android:background="@mipmap/password1"
+            android:layout_width="30dp"
+            android:layout_marginLeft="50dp"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint= "输入你的密码："/>
+
+    </TableRow>
+
+
+    <TableRow>
+        <CheckBox
+            android:id="@+id/remember_pass"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+           />
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="记住密码"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_height="wrap_content"
+        android:layout_span="2"
+        android:text="登       陆"
+        android:textColor="#000000"
+        android:layout_margin="10dp"
+      />
+    <Button
+        android:id="@+id/register"
+        android:layout_height="50dp"
+        android:text="注册"
+        android:textColor="#000000"
+        android:layout_width="50dp"
+        android:layout_margin="20dp"
+        android:background="#00000000"
+       />
+
+</TableLayout>

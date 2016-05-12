@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:lineSpacingExtra="3dip"
+        android:lineSpacingMultiplier="1.2"
+        android:text="注册"/>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="account:"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dp"
+
+            />
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="输入你的注册账号：" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <TableRow>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="password:"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_column="0" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint= "输入你的初试密码："
+            android:layout_column="1" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/register2"
+        android:layout_height="wrap_content"
+        android:layout_span="2"
+        android:text="立即注册"
+        android:textColor="#000000"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content" />
+    <Button
+        android:id="@+id/tuichu"
+        android:layout_height="50dp"
+        android:text="退出"
+        android:textColor="#000000"
+        android:layout_width="50dp"
+        android:layout_margin="20dp"
+        android:background="#00000000"
+        />
+
+</TableLayout>

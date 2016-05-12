@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"><TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView"
+        android:text="简书是基于内容分享的社区。
+                     在这里，你既可以发现各种心悬有趣的内容，也可以找到引人深思的文章。你也可以把自己的故事或是想法写出来与人分享，找到同好。
+
+                       简书致力于提供最好的分享体验。简书优雅的设计，给用户带来前所未有的愉快感觉，同时对于富文本和Markdown方式，文档实时保存等独特功能，使得leirong分享更加更加快捷；包罗万象的专题，使得用户更容易发现自己喜爱的内容，与同好交流。
+
+                       简书是一个开放而友好的社区，每个人都可以在这里自由地发现或是分享内容。
+
+                       邮箱：contact@jianshu.io  电话：021-61995350
+
+                       地址：上海市静安区康定路359号501
+
+                       邮编：200040"
+        android:textSize="15sp"
+        android:layout_weight="1" />
+
+</LinearLayout>
